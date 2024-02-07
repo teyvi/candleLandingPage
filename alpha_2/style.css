@@ -1,13 +1,18 @@
-#bg{
-    background-image: url(./asset/background.jpg);
+.bg{
+    background-image: url(./asset/katie-smith-uQs1802D0CQ-unsplash.jpg);
     padding: 40px;
     height: 80vh;
     width: 170vh;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    
+    background-position: center;   
 }
+
+.top-items{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 * {
     margin: 0;
@@ -18,3 +23,30 @@
     vertical-align: baseline;
     background: transparent;
 }
+
+li,a{
+    display: inline;
+    margin: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+
+.icon{
+    font-family: fantasy;
+    font-size: 50px;
+
+}
+
+
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
