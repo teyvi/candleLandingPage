@@ -1,0 +1,20 @@
+.bg{
+    background-image: url(/asset/background.jpg);
+    padding: 40px;
+    height: 80vh;
+    width: 170vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
