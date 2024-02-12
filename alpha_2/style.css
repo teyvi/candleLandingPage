@@ -1,11 +1,24 @@
 .bg{
-    background-image: url(./asset/katie-smith-uQs1802D0CQ-unsplash.jpg);
+    background-image: url(/asset/croissants.jpg);
     padding: 40px;
     height: 80vh;
     width: 170vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;   
+    /* background-image: linear-gradient(rgba(228, 145, 145, 0.774), rgba(247, 243, 243, 0.407)), url("/asset/background-1.jpg") */
+    /* filter: brightness(75%); */
+}
+
+.img{
+    background-image: url(/asset/beef-moine.jpg);
+    padding: 40px;
+    height: 80vh;
+    width: 175vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+
 }
 
 .top-items{
@@ -13,6 +26,18 @@
     justify-content: space-between;
 }
 
+a.hover{
+    padding: 2px 0;
+    border-bottom: 2px solid rgba(250, 244, 244, 0.348);
+}
+
+body{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    font-size:16px ;
+    color: blue;
+
+}
 
 * {
     margin: 0;
@@ -30,11 +55,11 @@ li,a{
     font-weight: bolder;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    color: greenyellow;
+    color: rgb(13, 255, 0);
 }
 
 .icon{
-    font-family: fantasy;
+    font-family: sans-serif;
     font-size: 20px;
 }
 
@@ -49,3 +74,27 @@ li,a{
     font-size: 16px;
     font-family: Georgia;
 } 
+
+.header-text{
+    text-align: center;
+    color: rgb(242, 241, 241);
+    padding: 120px 0 30px 0;
+    width: 50%;
+    margin: auto;
+
+}
+
+.header-text p{
+font-size: 13px;
+}
+
+.about-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-text{
+    min-height: 1px;
+    padding: right 15px;
+
+}
