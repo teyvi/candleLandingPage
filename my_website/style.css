@@ -1,5 +1,5 @@
 .bg{
-    background-image: url(/asset/croissants.jpg);
+    background-image: url(./asset/background.jpg);
     padding: 40px;
     height: 80vh;
     width: 170vh;
@@ -11,7 +11,7 @@
 }
 
 .img{
-    background-image: url(/asset/beef-moine.jpg);
+    background-image: url(/asset/tyler-nix-3SbuiAt8mO0-unsplash.jpg);
     padding: 40px;
     height: 80vh;
     width: 175vw;
@@ -52,15 +52,18 @@ body{
 li,a{
     display: inline;
     margin: 10px;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 20px;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(13, 255, 0);
+    font-family: 'Haettenschweiler';
+    color:#36558F;
 }
 
 .icon{
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium';
     font-size: 20px;
+    color:white;
+    font-size: x-large;
 }
 
 
@@ -96,5 +99,61 @@ font-size: 13px;
 .about-text{
     min-height: 1px;
     padding: right 15px;
+
+}
+
+.new-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color:#6F8AB7;
+
+}
+
+.new-item-text{
+    padding: 50px;
+    color: white;
+
+}
+
+.text{
+    text-align: left;
+    padding: 10px 0;
+}
+
+.text h3{
+    padding: 14px 0;
+    color: red;
+}
+
+img{
+    width: 100%;
+}
+
+
+img{
+    width: 70%;
+}
+
+.service-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 9px;
+    grid-row-gap: 0px;
+    }
+
+.services{
+
+
+    }
+
+.service-card{
+
+}
+
+.h2{
+    
 
 }
