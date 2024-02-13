@@ -23,11 +23,11 @@ li {
     font-weight: bold;
 }
 
-li:hover {
+/* li:hover {
     text-decoration: underline;
     cursor: pointer;
     text-underline-offset: 10px;
-}
+} */
 
 ul, button {
     display: inline;
