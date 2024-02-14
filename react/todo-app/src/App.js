@@ -1,7 +1,16 @@
+import React from "react";
+import Header from "./component/header";
+import CreateTodo from "./component/create-todo";
+import TodoList from "./component/todo-list";
+
 function App() {
   return (
-    <div> My App</div>
+    <React.Fragment>
+      <Header />
+      <CreateTodo/>
+      <TodoList/>
 
+    </React.Fragment>
   );
 }
 
