@@ -1,6 +1,12 @@
+import styles from "./index.module.css";
+
 function Header(){
     return(
-    <p>Todo Header</p>
+ <header className={styles.headerBackground}>
+    <h1>
+        TODO
+    </h1>
+ </header>
     );
 }
 

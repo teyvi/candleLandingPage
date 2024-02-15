@@ -1,0 +1,12 @@
+.headerBackground{
+    height: 40vh;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(181,44,220,0.9011142061281336) 10%, rgba(69,147,229,0.9011142061281336) 90%), url(../../image/snow-mountain.jpg);
+}
+
+.headerH1{
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+}
