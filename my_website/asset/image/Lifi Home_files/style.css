@@ -2,14 +2,14 @@
 .header-body{
     background: #2E6171;
     background-image: url(./asset/image/background4.png);
-    height: 95vh;
+    height: 91vh;
     padding-bottom: 40px;
 }
 
 
 .top-banner{
-    background: #3807eb;
-    margin-top: -3px;
+    background: white;
+    margin-top: 35px;
     padding: 20px 20px 20px 20px;
 }
 
@@ -102,26 +102,15 @@ ul, button {
 .header-text{
     text-align: center;
     color: #2E6171;
-    padding: 280px 180px 20px 0px;
+    padding: 280px 50px 300px 0px;
     width: 60%;
     margin: auto;
 }
 
-
-#header-text-move{
-    text-align: center;
-    color: #2E6171;
-    /* padding: 0px 10px 20px 0px; */
-    width: 60%;
-    margin-top: -420px;
-}
-
-#moving-promo{
+.header-text p{
     font-size: 18px;
-    color: black;
-    padding: 10px;
-    font-weight: bolder;
-    background-color: aqua;
+    color: #F87060;
+    font-weight: bold;
 
 }
 
@@ -388,5 +377,3 @@ grid-row-gap: 8px;
      width: 2px;
     height: 2px;x
     } */ 
-
-    style="border:BLACK 2px SOLID"
