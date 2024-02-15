@@ -6,8 +6,8 @@ function CreateTodo(){
 
     return (
         <section className={styles.createTodoSection}>
-            <input 
-            onChange={function(event){
+            <input onChange=
+            {function(event){
                 console.log(event.target.value);
             }}
             className = {styles.createTodoInput}
