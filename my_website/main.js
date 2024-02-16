@@ -15,4 +15,21 @@ for(let i = 0; i < 9; i++) {
         listItem.style.cursor = "grab";
     }
 
+
+
+//    plays video 
+function openVideoPopup(videoFileName, title) {
+    var videoPath = '/asset/videos/' + videoFileName;
+    
+    document.getElementById('videoFrame').src = videoPath;
+    document.getElementById('videoPopupTitle').innerText = title;
+    document.getElementById('videoPopup').style.display = 'block';
 }
+
+function closeVideoPopup() {
+    document.getElementById('videoPopup').style.display = 'none';
+    // Pause the video when closing the popup
+    var videoFrame = document.getElementById('videoFrame');
+    videoFrame.src = '';
+}
+

@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
     <!-- <link rel="icon" type="image/x-icon" href="./asset/image/favicon/favicon_io/favicon.ico"> -->
     <!-- <script defer="true" src="main.js"></script> -->
     <title>Lifi Home</title>
 </head>
 <body>
+    <script src="main.js"></script>
     <div class="header-body">
         <marquee direction="left" id="moving-promo">
             <span>&#129395</span> <span>&#129395</span> <span>&#129395</span> 
@@ -18,24 +23,23 @@
             <div class="top-banner">
             <div class="top-items">
                     <div class="icon">
-                        <!-- <img src="./asset/image/LIFI HOME.png" alt="logo"> -->
                         <h1>lifi home</h1>
                     </div>
         
                     <div>
                         <nav class="navbar"> 
                             <ul class="a.hover">
-                                <li><a href="#">Home</a></li>
+                                <li><a href=#>Home</a></li>
                                 
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="#about-us">About Us</a></li>
                 
-                                <li><a href="#">Our Commitment</a></li>
+                                <li><a href="#our-commitment">Our Commitment</a></li>
                 
-                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#our-service">Our Services</a></li>
 
-                                <li><a href="#">Our Product</a></li>
+                                <li><a href="#our-product">Our Product</a></li>
 
-                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#our-team">Our Team</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -52,7 +56,7 @@
     </div>
 
 
-    <section class="about-section">
+    <section class="about-section" id="about-us">
         <div class="about-text">
             <!-- <div><h2 class="icon">lifi home</h2></div> -->
             <h3>About Us</h3>
@@ -68,7 +72,7 @@
     </section>
 
 
-    <section class="new-item">
+    <section class="new-item" id="our-commitment">
         <div class="new-item-text">
         <h2>Our commitment</h2>
 
@@ -89,7 +93,7 @@
 
 
 
-    <section class="services">
+    <section class="services" id="our-service">
         <br>
         <h3 class="h2">Our Services</h3>
         
@@ -122,55 +126,174 @@
 
 
 
-    <section class="products">
+    <section class="products" id="our-product">
         <h3>Our Fragrances</h3>
+
+
         <div class="product-item">
 
+            <!-- Product Card 1 -->
             <div class="product-card">
-                <img src="./asset/image/Almond-Macaron-FO-web.webp" alt="Almond Macaron">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Autumn%20Glow%20Fragrance%20Oil%20from%20CandleScience%20__%20Apple%20Eucalyptus%20Cozy%20Fresh%20Aromatic%20Fall%20Scent.mp4', 'Autumn Glow')">
+                    <img src="./asset/image/Autumn-Glow-FO-web.webp" alt="Autumn Glow">
+                </a>
+                <h2>Click the picture for more info</h2>
+            </div>
+    
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Blueberry%20Cheesecake%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Blueberry Cobbler')">
+                    <img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806">
+                </a>
+                <h2>Blueberry Cobbler</h2>
+            </div>
+    
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Sweet%20Vanilla%20Caramel%20Fragrance%20Oil%20from%20CandleScience%20__%20Dessert%20Gourmand%20Creamy%20Coffee%20Scent.mp4', 'Sweet Vanilla Caramel')">
+                    <img src="./asset/image/sweet-vanilla-caramel-FO-image-web.webp" alt="Sweet Vanilla Caramel">
+                </a>
+                <h2>Sweet Vanilla Caramel</h2>
+            </div>
+    
+            <!-- Product Card 4 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Campfire%20Marshmallow%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Campfire Marshmallow')">
+                    <img src="./asset/image/campfire-marshmallow-fragrance-oil-web.webp" alt="Campfire Marshmallow">
+                </a>
+                <h2>Campfire Marshmallow</h2>
+            </div>
+    
+            <!-- Product Card 5 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Coconut%20Lime%20Verbena%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Coconut Lime Verbena')">
+                    <img src="./asset/image/Coconut-Lime-Verbena-Fragrance-Oil-web.webp" alt="Coconut Lime Verbena">
+                </a>
+                <h2>Coconut Lime Verbena</h2>
+            </div>
+    
+            <!-- Product Card 6 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Limoncello%20Creme%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Limoncello Cream')">
+                    <img src="./asset/image/FO-Limoncello-Creme-1x1-web.webp" alt="Limoncello Cream">
+                </a>
+                <h2>Limoncello Cream</h2>
+            </div>
+    
+            <!-- Product Card 7 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Mint%20White%20Chocolate%20Ganache%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Mint Chocolate Ganache')">
+                    <img src="./asset/image/Mint-White-Chocolate-Ganache-FO-web.webp" alt="Mint Chocolate Ganache">
+                </a>
+                <h2>Mint Chocolate Ganache</h2>
+            </div>
+    
+            <!-- Product Card 8 -->
+            <div class="product-card">
+                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Almond%20Macaron%20Fragrance%20Oil%20from%20CandleScience%20__%20French%20Gourmand%20Bakery%20Marzipan%20Cookie%20Scent.mp4', 'Almond Macaron')">
+                    <img src="./asset/image/Almond-Macaron-FO-web.webp" alt="Almond Macaron">
+                </a>
                 <h2>Almond Macaron</h2>
             </div>
+    
+        </div>
+    
+        <div id="videoPopup">
+            <div id="videoContainer">
+                <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                <button id="closeVideo" onclick="closeVideoPopup">&times;</button>
+            </div>
+            <h2 id="videoPopupTitle"></h2>
+        </div>
+
+
+        <!-- <div class="product-item">
 
             <div class="product-card">
-                <img src="./asset/image/Autumn-Glow-FO-web.webp" alt="Autumn Glow picture">
-                <h2>Autumn Glow</h2>
+                <a href="/asset/videos/Autumn Glow Fragrance Oil from CandleScience __ Apple Eucalyptus Cozy Fresh Aromatic Fall Scent.mp4"><img src="./asset/image/Autumn-Glow-FO-web.webp" alt="Autum Glow"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Autumn Glow Fragrance Oil from CandleScience __ Apple Eucalyptus Cozy Fresh Aromatic Fall Scent.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2> Picture for more info</h2>
             </div>
 
+
             <div class="product-card">
-                <img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806">
+                <a href="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
                 <h2>Blueberry Cobbler</h2>
             </div>
 
-            <div class="product-card">
-                <img src="./asset/image/brandied-pear-fragrance-oil-web.webp" alt="Pear Brandied">
-                <h2>Pear Brandied</h2>
-            </div>
 
             <div class="product-card">
-                <img src="./asset/image/campfire-marshmallow-fragrance-oil-web.webp" alt="Campfire Mashmellow">
-                <h2>Campfire Mashmellow</h2>
+                <a href="/asset/videos/Sweet Vanilla Caramel Fragrance Oil from CandleScience __ Dessert Gourmand Creamy Coffee Scent.mp4"><img src="./asset/image/sweet-vanilla-caramel-FO-image-web.webp" alt="Sweet Vanilla Caramel"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Sweet Vanilla Caramel Fragrance Oil from CandleScience __ Dessert Gourmand Creamy Coffee Scent.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2>Blueberry Cobbler</h2>
             </div>
 
-            <div class="product-card">
-                <img src="./asset/image/Coconut-Lime-Verbena-Fragrance-Oil-web.webp" alt="coconut lime verbena">
-                <h2>Coconut Lime Verbena</h2>
-            </div>
 
             <div class="product-card">
-                <img src="./asset/image/FO-Limoncello-Creme-1x1-web.webp" alt="limoncello cream">
-                <h2>limoncello Cream</h2>
+                <a href="/asset/videos/Campfire Marshmallow Fragrance Oil from CandleScience.mp4"><img src="./asset/image/campfire-marshmallow-fragrance-oil-web.webp" alt="Campfire Marshmallow"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Campfire Marshmallow Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2>Blueberry Cobbler</h2>
             </div>
 
+
             <div class="product-card">
-                <img src="./asset/image/Mint-White-Chocolate-Ganache-FO-web.webp" alt="Mint White Chocolate Ganache">
-                <h2>Mint White Chocolate Ganache</h2>
+                <a href="/asset/videos/Coconut Lime Verbena Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Coconut-Lime-Verbena-Fragrance-Oil-web.webp" alt="Coconut Lime Verbena"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Coconut Lime Verbena Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2>Blueberry Cobbler</h2>
             </div>
-        </div>
+
+
+            <div class="product-card">
+                <a href="/asset/videos/Limoncello Creme Fragrance Oil from CandleScience.mp4"><img src="./asset/image/FO-Limoncello-Creme-1x1-web.webp" alt="Limoncello Cream"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Limoncello Creme Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2>Blueberry Cobbler</h2>
+            </div>
+
+
+            <div class="product-card">
+                <a href="/asset/videos/Mint White Chocolate Ganache Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Mint-White-Chocolate-Ganache-FO-web.webp" alt="Mint Chocolate Ganache"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Mint White Chocolate Ganache Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2>Blueberry Cobbler</h2>
+            </div>
+
+
+            <div class="product-card">
+                <a href="/asset/videos/Almond Macaron Fragrance Oil from CandleScience __ French Gourmand Bakery Marzipan Cookie Scent.mp4"><img src="./asset/image/Almond-Macaron-FO-web.webp" alt="Almond Macaron"></a>
+                <div id="videoContainer">
+                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Almond Macaron Fragrance Oil from CandleScience __ French Gourmand Bakery Marzipan Cookie Scent.mp4" frameborder="0" allowfullscreen></iframe>
+                    <button id="closeVideo">&times;</button>
+                </div>
+                <h2>Blueberry Cobbler</h2>
+            </div>
+
+        </div> -->
 
     </section>
 
 
-    <section class="team">
+    <section class="team" id="our-team">
         <br>
         <h3>Our Team</h3>
         
