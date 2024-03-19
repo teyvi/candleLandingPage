@@ -10,404 +10,292 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Athiti:bold,bolditalic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong:bold,bolditalic">
     <link rel="icon" type="image/jpg" href="./asset/image/favicon/favicon.ico">
-    <!-- <script defer="true" src="main.js"></script> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <title>Lifi Home</title>
 </head>
 <body>
-    <script src="main.js"></script>
-    <div class="header-body">
+    <!-- <script src="main.js"></script> -->
+<div >
+
+    <div class="row"> 
         <marquee direction="left" id="moving-promo">
             <span>&#129395</span> <span>&#129395</span> <span>&#129395</span> 
             Enjoy 20% discount on all our products and free delivery within Accra on your purchase this Valentines day. 
             Lifi Home ..... made just for you</marquee>
-        <header class="back-ground">
-            <div class="top-banner">
-            <div class="top-items">
-                    <div class="icon">
-                        <a href="#" class="icon">Lifi Candle</a> 
-                    </div>
-                    
-                    <div>
-                        <nav class="navbar"> 
-                            <ul>
-                                <li><a href=#>Home</a></li>
+    </div>
+
+    <div class="row"> 
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./asset/image/logo-nav.png" alt="logo" width="36" height="30">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2">
+                    <li class="nav-item"><a  class="nav-link active" aria-current="page" href=#>Home</a></li>
                                 
-                                <li><a href="#about-us">About Us</a></li>
-                
-                                <li><a href="#our-commitment">Commitment</a></li>
-                
-                                <li><a href="#our-service">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about-us">About Us</a></li>
+    
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#our-commitment">Commitment</a></li>
+    
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#our-service">Services</a></li>
 
-                                <li><a href="#our-product">Fragrance</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#our-product">Fragrance</a></li>
 
-                                <li><a href="#our-team">Team</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="btn-2">
-                        <button>Sign Up</button>
-                    </div>
-            </div>
-            </div>
-            <div class="header-text">
-                <h1 style="font-size: 19px;">non-toxic handmade candles from <span class="icon">Lifi Candle</span></h1>
+                    <li><a class="nav-link active" aria-current="page" href="#our-team">Team</a></li>
+                </ul>
 
-            <div class="btn-2-position">
-                <div class="btn-2">
-                    <button>Shop Now</button>
+                <div class="butn-2">
+                    <button>Sign Up</button>
                 </div>
+              </div>
             </div>
-
-                <!-- <p>Welcome to Lifi Homes, where we illuminate your spaces with the essence of handcrafted perfection. Founded in 2020, Lifi is more than just a candle company – we are creators of atmospheres, curators of moods, and guardians of your olfactory experience.</p> -->
-             </div>
-    </header>
+          </nav>
     </div>
 
 
-    <section class="about-section" id="about-us">
-        <div class="about-text">
+    <div class="row">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+    
+                <div class="carousel-item active c-item">
+                    <img src="/asset/image/svg-background.svg" class="d-block w-100 c-img" alt="Slide1">
+                    <div class="carousel-caption top-0 mt-5">
+                        <h1 class="display-1 fw-bolder text-capitalize color-b text-warning">FLASH SALE</h1>
+                        <p class="mt-2 fs-5 text-uppercase text-warning fw-bold">Shop our seasonal products at 20% discount.</p>
+                    </div>
+                    <!-- The form search button -->
+                    <form class="example" action="action_page.php" >
+                        <input  type="text" placeholder=" Search..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+    
+                <div class="carousel-item c-item">
+                    <img src="/asset/image/background-carousel-1.png" class="d-block w-100 c-img" alt="Slide2">
+                    <div class="text-start">
+                        <div class="butn-3" id="position-button">
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item c-item">
+                    <img src="./asset/image/background-carousel-2.png" class="d-block w-100 c-img" alt="Slide3">
+                    <div class="butn-3" id="position-button">
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+    
+                <div class="carousel-item c-item">
+                    <img src="./asset/image/background-carousel-4.png" class="d-block w-100 c-img" alt="Slide3">
+                    <div class="butn-3" id="position-button">
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    
+        </div>
+    </div>
+    
 
-            <h3>Our Story</h3>
-            <h4>Non-Toxic Handmade Candles</h4>
-            <p>At Lifi Homes, we understand that every moment
-                deserves a unique scent, <br>and that's why each of our
-                candles is meticulously crafted to cater to your aromatic desires. <br>
+    <div class="row">
+        <section class="about-section" id="about-us">
+            <div class="about-text">
+    
+                <h3 class="fs-1 display-1" >About Us</h3>
+                <h4 class="display-0">Non-Toxic Handmade Candles</h4>
+                <p>At Lifi Homes, we understand that every moment
+                    deserves a unique scent, <br>and that's why each of our
+                    candles is meticulously crafted to cater to your aromatic desires. <br>
+                </p>
+    
+        </section>
+    </div>
+
+
+
+    <div class="row">
+        <section class="new-item" id="our-commitment">
+            <div class="new-item-text">
+            <h2 class="display-1">Our commitment</h2>
+    
+            <div class="text">
+                <p>
+                    
+                    Our commitment extends beyond individual indulgence, as we proudly offer wholesale candles for special occasions such as weddings, 
+                    naming ceremonies, and other memorable events. Let Lifi be a part of your celebrations, enhancing the ambiance and leaving a lasting 
+                    impression on your guests.
+                </p>
+            </div>
+            </div>
+    
+        <div class="img">
+            <img src="./asset/image/our-story.png" alt="img">
+    
+        </div>
+    
+        </section>    </div>
+
+
+    <div class="row">
+        <section class="services" id="our-service">
+            <br>
+            <h3 class="h2">Our Services</h3>
+            
+            <div  class="service-item">
+        <div class="service-card">
+            <img src="./asset/image/wholesale.png" alt="">
+            <h2>Wholesale</h2>
+            <p>We stock your shop with our amazing products
             </p>
-                <div class="about-center-text-image">
-                    <div class="about-text-in-box">
-                        <h4>We are the creatives to bring you the best fragrances in the best shape and form</h4>
-                    </div>
-                    <div class="about-text-image">
-                        <img src="./asset/image/new-picture-3.png" alt="picture of us brainstorming">
-                    </div>
-                </div>
         </div>
-
-    </section>
-
-
-    <section class="new-item" id="our-commitment">
-        <div class="new-item-text">
-        <h2>Our commitment</h2>
-
-        <div class="text">
-            <p>
-                
-                Our commitment extends beyond individual indulgence, as we proudly offer wholesale candles for special occasions such as weddings, 
-                naming ceremonies, and other memorable events. Let Lifi be a part of your celebrations, enhancing the ambiance and leaving a lasting 
-                impression on your guests.
+    
+        <div class="service-card">
+            <img src="./asset/image/special.png" alt="">
+            <h2>Souvenier</h2>
+            <p>We provide customised packaged for weddings, funerals, outdooring and other events
             </p>
         </div>
+    
+        <div class="service-card">
+            <img src="./asset/image/retail.png" alt="">
+            <h2>Retail</h2>
+            <p> Check out our retail for retail prices</p>
         </div>
+            </div>
+    
+        </section>    </div>
 
 
-    <div class="img">
-        <img src="./asset/image/Blueberry-Cobbler-806.webp" alt="img">
+    <div class="row">
+        <section class="products" id="our-product">
+            <h3>Our Fragrances</h3>
+            <h6>Click on the video to know more about the fragrances</h6>
 
+            <div class="product-item">
+    
+                <div class="product-card">
+
+
+                    <a href="/asset/videos/Autumn Glow Fragrance Oil from CandleScience __ Apple Eucalyptus Cozy Fresh Aromatic Fall Scent.mp4"><img src="./asset/image/Autumn-Glow-FO-web.webp" alt="Autumn Glow Fragrance Oil Video"></a>
+                    <h2> Autum Glow</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806 video"></a>
+                    <h2>Blueberry Cobbler 806</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Sweet Vanilla Caramel Fragrance Oil from CandleScience __ Dessert Gourmand Creamy Coffee Scent.mp4"><img src="./asset/image/sweet-vanilla-caramel-FO-image-web.webp" alt="Sweet Vanilla Caramel video"></a>
+                    <h2>Sweet Vanilla Caramel</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Campfire Marshmallow Fragrance Oil from CandleScience.mp4"><img src="./asset/image/campfire-marshmallow-fragrance-oil-web.webp" alt="Campfire Marshmallow"></a>
+                    <h2>Campfire Marshmallow</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Coconut Lime Verbena Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Coconut-Lime-Verbena-Fragrance-Oil-web.webp" alt="Coconut Lime Verbena"></a>
+                    <h2>Coconut Lime Verbena</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Limoncello Creme Fragrance Oil from CandleScience.mp4"><img src="./asset/image/FO-Limoncello-Creme-1x1-web.webp" alt="Limoncello Cream"></a>
+                    <h2>Limoncello Cream</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Mint White Chocolate Ganache Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Mint-White-Chocolate-Ganache-FO-web.webp" alt="Mint Chocolate Ganache"></a>
+                    <h2>Mint Chocolate Ganache</h2>
+                </div>
+    
+    
+                <div class="product-card">
+                    <a target="_blank" href="/asset/videos/Almond Macaron Fragrance Oil from CandleScience __ French Gourmand Bakery Marzipan Cookie Scent.mp4"><img src="./asset/image/Almond-Macaron-FO-web.webp" alt="Almond Macaron"></a>
+                    <h2>Almond Macaron</h2>
+                </div>
+    
+            </div>
+    
+        </section>    
     </div>
 
-    </section>
 
+    <div class="row">
+        <section class="team" id="our-team">
+            <br>
+            <h3>Our Team</h3>
+            
+            
+        <div  class="our-teams">
+              <div class="team-card">
+                    <img src="./asset/image/Team-member-Angela.png" alt="">
+                    <h2>Angela Teyvi</h2>
 
-
-    <section class="services" id="our-service">
-        <br>
-        <h3 class="h2">Our Services</h3>
-        
-        <div  class="service-item">
-    <div class="service-card">
-        <i class="fa fa-heart" style="font-size: 48px; color: red;"></i>
-        <img src="./asset/image/wholesale.png" alt="">
-        <h2>Wholesale</h2>
-        <p>We stock your shop with our amazing products
-        </p>
-    </div>
-
-    <div class="service-card">
-        <i class="fa fa-heart" style="font-size: 48px; color: red;"></i>
-        <img src="./asset/image/special.png" alt="">
-        <h2>Souvenier</h2>
-        <p>We provide customised packaged for weddings, funerals, outdooring and other events
-        </p>
-    </div>
-
-    <div class="service-card">
-        <img src="./asset/image/retail.png" alt="">
-        <i class="fa fa-heart" style="font-size: 48px; color: red;"></i>
-        <h2>Retail</h2>
-        <p> Check out our retail for retail prices</p>
-    </div>
-        </div>
-
-    </section>
-
-
-
-    <section class="products" id="our-product">
-        <h3>Our Fragrances</h3>
-
-
-        <div class="product-item">
-
-
-            <!-- <div class="product-card">
-                <a href="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div> -->
-
-            <!-- Product Card 1 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Autumn%20Glow%20Fragrance%20Oil%20from%20CandleScience%20__%20Apple%20Eucalyptus%20Cozy%20Fresh%20Aromatic%20Fall%20Scent.mp4', 'Autumn Glow')">
-                    <img src="./asset/image/Autumn-Glow-FO-web.webp" alt="Autumn Glow">
-                </a>
-                <h2>Click the picture for more info</h2>
             </div>
     
+            <div class="team-card">
+                <img src="./asset/image/Team-member-Mr-business.png" alt="">
+                <h2>Mr Business</h2>
 
-            <!-- Product Card 2 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Blueberry%20Cheesecake%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Blueberry Cobbler')">
-                    <img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806">
-                </a>
-                <h2>Blueberry Cobbler</h2>
-            </div>
+          </div>
     
-            <!-- Product Card 3 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Sweet%20Vanilla%20Caramel%20Fragrance%20Oil%20from%20CandleScience%20__%20Dessert%20Gourmand%20Creamy%20Coffee%20Scent.mp4', 'Sweet Vanilla Caramel')">
-                    <img src="./asset/image/sweet-vanilla-caramel-FO-image-web.webp" alt="Sweet Vanilla Caramel">
-                </a>
-                <h2>Sweet Vanilla Caramel</h2>
-            </div>
     
-            <!-- Product Card 4 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Campfire%20Marshmallow%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Campfire Marshmallow')">
-                    <img src="./asset/image/campfire-marshmallow-fragrance-oil-web.webp" alt="Campfire Marshmallow">
-                </a>
-                <h2>Campfire Marshmallow</h2>
-            </div>
-    
-            <!-- Product Card 5 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Coconut%20Lime%20Verbena%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Coconut Lime Verbena')">
-                    <img src="./asset/image/Coconut-Lime-Verbena-Fragrance-Oil-web.webp" alt="Coconut Lime Verbena">
-                </a>
-                <h2>Coconut Lime Verbena</h2>
-            </div>
-    
-            <!-- Product Card 6 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Limoncello%20Creme%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Limoncello Cream')">
-                    <img src="./asset/image/FO-Limoncello-Creme-1x1-web.webp" alt="Limoncello Cream">
-                </a>
-                <h2>Limoncello Cream</h2>
-            </div>
-    
-            <!-- Product Card 7 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Mint%20White%20Chocolate%20Ganache%20Fragrance%20Oil%20from%20CandleScience.mp4', 'Mint Chocolate Ganache')">
-                    <img src="./asset/image/Mint-White-Chocolate-Ganache-FO-web.webp" alt="Mint Chocolate Ganache">
-                </a>
-                <h2>Mint Chocolate Ganache</h2>
-            </div>
-    
-            <!-- Product Card 8 -->
-            <div class="product-card">
-                <a href="javascript:void(0);" onclick="openVideoPopup('/asset/videos/Almond%20Macaron%20Fragrance%20Oil%20from%20CandleScience%20__%20French%20Gourmand%20Bakery%20Marzipan%20Cookie%20Scent.mp4', 'Almond Macaron')">
-                    <img src="./asset/image/Almond-Macaron-FO-web.webp" alt="Almond Macaron">
-                </a>
-                <h2>Almond Macaron</h2>
-            </div>
-    
-        </div>
-    
-        <!-- <div id="videoPopup">
-            <div id="videoContainer">
-                <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-                <button id="closeVideo" onclick="closeVideoPopup">&times;</button>
-            </div>
-            <h2 id="videoPopupTitle"></h2>
-        </div> -->
-
-
-        <!-- <div class="product-item">
-
-            <div class="product-card">
-                <a href="/asset/videos/Autumn Glow Fragrance Oil from CandleScience __ Apple Eucalyptus Cozy Fresh Aromatic Fall Scent.mp4"><img src="./asset/image/Autumn-Glow-FO-web.webp" alt="Autum Glow"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Autumn Glow Fragrance Oil from CandleScience __ Apple Eucalyptus Cozy Fresh Aromatic Fall Scent.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2> Picture for more info</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Blueberry-Cobbler-806.webp" alt="Blueberry Cobbler 806"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Blueberry Cheesecake Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Sweet Vanilla Caramel Fragrance Oil from CandleScience __ Dessert Gourmand Creamy Coffee Scent.mp4"><img src="./asset/image/sweet-vanilla-caramel-FO-image-web.webp" alt="Sweet Vanilla Caramel"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Sweet Vanilla Caramel Fragrance Oil from CandleScience __ Dessert Gourmand Creamy Coffee Scent.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Campfire Marshmallow Fragrance Oil from CandleScience.mp4"><img src="./asset/image/campfire-marshmallow-fragrance-oil-web.webp" alt="Campfire Marshmallow"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Campfire Marshmallow Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Coconut Lime Verbena Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Coconut-Lime-Verbena-Fragrance-Oil-web.webp" alt="Coconut Lime Verbena"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Coconut Lime Verbena Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Limoncello Creme Fragrance Oil from CandleScience.mp4"><img src="./asset/image/FO-Limoncello-Creme-1x1-web.webp" alt="Limoncello Cream"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Limoncello Creme Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Mint White Chocolate Ganache Fragrance Oil from CandleScience.mp4"><img src="./asset/image/Mint-White-Chocolate-Ganache-FO-web.webp" alt="Mint Chocolate Ganache"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Mint White Chocolate Ganache Fragrance Oil from CandleScience.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-
-            <div class="product-card">
-                <a href="/asset/videos/Almond Macaron Fragrance Oil from CandleScience __ French Gourmand Bakery Marzipan Cookie Scent.mp4"><img src="./asset/image/Almond-Macaron-FO-web.webp" alt="Almond Macaron"></a>
-                <div id="videoContainer">
-                    <iframe id="videoFrame" width="560" height="315" src="/asset/videos/Almond Macaron Fragrance Oil from CandleScience __ French Gourmand Bakery Marzipan Cookie Scent.mp4" frameborder="0" allowfullscreen></iframe>
-                    <button id="closeVideo">&times;</button>
-                </div>
-                <h2>Blueberry Cobbler</h2>
-            </div>
-
-        </div> -->
-
-    </section>
-
-
-    <section class="team" id="our-team">
-        <br>
-        <h3>Our Team</h3>
-        
-        
-    <div  class="our-teams">
           <div class="team-card">
-                <img src="./asset/image/Team-member-Angela.png" alt="">
-                <h2>Angela Teyvi</h2>
-                <!-- <p>
-                    Angela is creative of the business. Mixing fragrances and wax all day
-                </p> -->
-        </div>
+            <img src="./asset/image/team-member-layla.png" alt="">
+            <h2>Josey Wayfare</h2>
 
-        <div class="team-card">
-            <img src="./asset/image/Team-member-Mr-business.png" alt="">
-            <h2>Mr Business</h2>
-            <!-- <p>
-                Mr Business is the Quality Assurance.Working his hardest everyday and paid generously in treats
-
-            </p> -->
       </div>
-
-
-      <div class="team-card">
-        <img src="./asset/image/team-member-layla.png" alt="">
-        <h2>Mr Business</h2>
-        <!-- <p>
-            Mr Business is the Quality Assurance.Working his hardest everyday and paid generously in treats
-
-        </p> -->
-  </div>
-
-        
-    </div>
-
-    </section>
-
-<!-- pop-up button
-    <div class="container">
-        <button type="submit" class="btn"> Shop Now</button>
-        <div class="popup">
-            <img src="./asset/image/Lifi Homes.gif" alt="popup">
+    
+            
         </div>
-    </div> -->
-
-    <footer class="footer">
-        <!-- <div class="footer-grid"> -->
-            <!-- <div class="footer-card">
-                <h3> customers</h3>
-                <h4>customer support</h4>
-                <h4>delivery</h4>
-                <h4>refund policy</h4>
-            </div> -->
+    
+        </section> 
 
 
-            <!-- <div class="footer-card">
-                <h3> lifi</h3>
-                <h4>about us</h4>
-                <h4>our commitment</h4>
-                <h4>careers</h4>
-            </div> -->
 
-            <!-- <div class="footer-card">
-                <h3> get in touch</h3>
-                <h4>send a message</h4>
-                <h4>join our whatsappp channel</h4>
-                <h4>join our newsletter</h4>
-            </div> -->
-        </div>
+    <div class="row">
+        <footer class="footer">
 
-        <!-- <div class="icon-size">
-            <img src="asset/icon/facebook.svg" alt="facebook">
-            <img src="asset/icon/ig.png" alt="instagram">
-            <img src="asset/icon/tiktok.svg" alt="tiktok">
-            <img src="asset/icon/twitter.svg" alt="twitter">
-            <img src="asset/icon/whatsapp.svg" alt="whatsapp">
-        </div> -->
-
-        <br>
-        <br>
-        <h5>2024, lifi Inc. All Rights Reserved, Terms of Sale, Privacy Policy</h5>
+            <br>
+            <br>
+            <h5>2024, lifi Inc. All Rights Reserved, Terms of Sale, Privacy Policy</h5>
+    
+    
+        </footer>    </div>
 
 
-    </footer>
 
 
+</div>
 
 
 </body>
